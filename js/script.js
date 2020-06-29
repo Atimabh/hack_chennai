@@ -11,3 +11,22 @@ for (var i = 0; i < len; i++) {
     generateHere.insertAdjacentHTML('beforeend', html);
     console.log(i);
 };
+
+//Navbar
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+var dots = window.setInterval(function() {
+    var wait = document.getElementById("wait");
+    if (wait.innerHTML.length > 4)
+        wait.innerHTML = "";
+    else
+        wait.innerHTML += " .";
+}, 200);
