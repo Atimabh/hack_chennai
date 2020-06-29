@@ -158,6 +158,7 @@ span {
     .topnav a.icon {
         float: right;
         display: block;
+        padding: 1.2rem;
     }
     .header {
         display: flex;
@@ -194,6 +195,7 @@ span {
         position: absolute;
         right: 0;
         top: 0;
+        padding: 1.2rem;
     }
     .topnav.responsive a {
         float: none;
