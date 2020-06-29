@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sponsorBtn {
+    background-color: #000000;
+    border-radius: 0;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #000000;
+    margin: 2rem 0;
+}
+
+.sponsor {
+    position: relative;
+    margin-bottom: 1rem;
+    .btnBorder {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-54%, -70%);
+        width: 11rem;
+        height: 2.5rem;
+        border: solid 2px #707070;
+        z-index: -1;
+    }
+}
+
+.partner {
+    width: 90%;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    h1 {
+        background-color: #000000;
+        color: #ffffff;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 1rem 0;
+        font-weight: 300;
+    }
+    img {
+        max-width: 50%;
+        margin: 1rem 0;
+    }
+}
+
+.titlePartnerImg {
+    display: flex;
+    flex-direction: row;
+    img {
+        width: 30%;
+        margin: 3.5rem auto;
+    }
+}
+
+.cardWrapper {
+    margin: 0 1rem;
+}
+
+.mentorCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 16rem;
+    min-height: 21rem;
+    margin: 1rem auto;
+    .mentorImage {
+        img {
+            width: 100%;
+            height: 12rem;
+            object-fit: cover;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+    }
+    .mentorText {
+        position: relative;
+        .linkedin {
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 70%;
+            right: 5%;
+            color: #0077b5;
+            background-color: #ffffff;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            border-radius: 100%;
+            z-index: 1000;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #000000;
+            margin-top: 1rem;
+        }
+    }
+    .mentorSkills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        span {
+            margin-bottom: 0.5rem;
+        }
+        .pink {
+            background-color: #ffd4d4;
+            color: #ec0000;
+            padding: 0.2rem 1rem;
+            border-radius: 0.5rem;
+        }
+        .green {
+            background-color: #bbffb6;
+            color: #00b20c;
+            padding: 0.2rem 1rem;
+            border-radius: 0.5rem;
+        }
+        .yellow {
+            background-color: #ffeda5;
+            color: #eaa500;
+            padding: 0.2rem 1rem;
+            border-radius: 0.5rem;
+        }
+        .break {
+            flex-basis: 100%;
+            height: 0;
+        }
+    }
+}
