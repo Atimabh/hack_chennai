@@ -1,0 +1,61 @@
+/* ! About US */
+
+.background {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.img-bac {
+    background: url(../images/illus.svg) no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    height: auto;
+    width: auto;
+}
+
+.info {
+    /* padding-top: 4em; */
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.about {
+    background-color: #000000;
+    background-image: url(../images/illus.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.question {
+    margin: 0.5rem 0;
+}
+
+
+/* ! Media Queries */
+
+@media (max-width: 1050px) {
+    .img-bac {
+        background: url(illus.svg);
+        background-size: contain;
+        background-position-x: right;
+        height: auto;
+        width: auto;
+    }
+    .heading {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 500px) {
+    .img-bac {
+        background: none;
+        background-size: contain;
+        background-position-x: right;
+        height: auto;
+        width: auto;
+    }
+    .heading {
+        font-size: 1.5em;
+    }
+}
