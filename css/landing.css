@@ -50,8 +50,8 @@
 }
 
 .devfolioBtn:focus {
-    outline: none;
-    box-shadow: none;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .fa-arrow-right {
