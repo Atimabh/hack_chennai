@@ -69,10 +69,11 @@ body {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 1rem;
-    width: 100%;
-    min-height: 21rem;
+    width: 18rem;
+    min-height: 20rem;
     margin: 1rem auto;
     .mentorImage {
+        position: relative;
         img {
             width: 100%;
             height: 12rem;
@@ -80,9 +81,6 @@ body {
             border-top-left-radius: 1rem;
             border-top-right-radius: 1rem;
         }
-    }
-    .mentorText {
-        position: relative;
         .linkedin {
             width: 2rem;
             height: 2rem;
@@ -90,7 +88,7 @@ body {
             align-items: center;
             justify-content: center;
             position: absolute;
-            bottom: 70%;
+            bottom: -10%;
             right: 5%;
             color: #0077b5;
             background-color: #ffffff;
@@ -98,42 +96,19 @@ body {
             border-radius: 100%;
             z-index: 1000;
         }
+    }
+    .mentorText {
+        position: relative;
+        margin: auto 0;
         h1 {
             font-size: 1.5rem;
             font-weight: 600;
             color: #000000;
-            margin-top: 1rem;
         }
-    }
-    .mentorSkills {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        span {
-            margin-bottom: 0.5rem;
-        }
-        .pink {
-            background-color: #ffd4d4;
-            color: #ec0000;
-            padding: 0.2rem 1rem;
-            border-radius: 0.5rem;
-        }
-        .green {
-            background-color: #bbffb6;
-            color: #00b20c;
-            padding: 0.2rem 1rem;
-            border-radius: 0.5rem;
-        }
-        .yellow {
-            background-color: #ffeda5;
-            color: #eaa500;
-            padding: 0.2rem 1rem;
-            border-radius: 0.5rem;
-        }
-        .break {
-            flex-basis: 100%;
-            height: 0;
+        h2 {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #000000;
         }
     }
 }

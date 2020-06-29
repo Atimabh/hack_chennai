@@ -85,9 +85,13 @@ body {
           flex-direction: column;
   background-color: #ffffff;
   border-radius: 1rem;
-  width: 16rem;
-  min-height: 21rem;
+  width: 18rem;
+  min-height: 20rem;
   margin: 1rem auto;
+}
+
+.mentorCard .mentorImage {
+  position: relative;
 }
 
 .mentorCard .mentorImage img {
@@ -99,11 +103,7 @@ body {
   border-top-right-radius: 1rem;
 }
 
-.mentorCard .mentorText {
-  position: relative;
-}
-
-.mentorCard .mentorText .linkedin {
+.mentorCard .mentorImage .linkedin {
   width: 2rem;
   height: 2rem;
   display: -webkit-box;
@@ -116,7 +116,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  bottom: 70%;
+  bottom: -10%;
   right: 5%;
   color: #0077b5;
   background-color: #ffffff;
@@ -126,56 +126,20 @@ body {
   z-index: 1000;
 }
 
+.mentorCard .mentorText {
+  position: relative;
+  margin: auto 0;
+}
+
 .mentorCard .mentorText h1 {
   font-size: 1.5rem;
   font-weight: 600;
   color: #000000;
-  margin-top: 1rem;
 }
 
-.mentorCard .mentorSkills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.mentorCard .mentorSkills span {
-  margin-bottom: 0.5rem;
-}
-
-.mentorCard .mentorSkills .pink {
-  background-color: #ffd4d4;
-  color: #ec0000;
-  padding: 0.2rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.mentorCard .mentorSkills .green {
-  background-color: #bbffb6;
-  color: #00b20c;
-  padding: 0.2rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.mentorCard .mentorSkills .yellow {
-  background-color: #ffeda5;
-  color: #eaa500;
-  padding: 0.2rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.mentorCard .mentorSkills .break {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  height: 0;
+.mentorCard .mentorText h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
