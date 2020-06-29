@@ -118,6 +118,7 @@ span {
 
 .navLogo h1 {
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .navLogo h2 {
@@ -133,6 +134,9 @@ span {
     }
     .devfolioBtn {
         font-size: 1rem;
+    }
+    .fa-arrow-right {
+        font-size: 1.2rem;
     }
     .header {
         flex-direction: column;
