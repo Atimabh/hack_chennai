@@ -1,6 +1,6 @@
-var mentor = ['Aaishika S Bhattacharya', 'Anush Bhatia', 'Smaranjit Ghose', 'Ishika Gupta', 'Naynika Madan', 'Kushagra Singh', 'Atimabh Barunaha'];
-var img = ['naruto.webp', 'anush.png', 'smaranjit.png', 'naruto.webp', 'naruto.webp', 'naruto.webp', 'naruto.webp'];
-var position = ['- Team Lead', '- Creatives Lead', '- Technical Lead', '- Content Lead', '- Community Lead', '- Partnership Lead', '- Web Team Lead']
+var mentor = ['Aaishika S Bhattacharya', 'Anush Bhatia', 'Smaranjit Ghose', 'Ishika Gupta', 'Naynika Madan', 'Kushagra Singh', 'Mayank Goyal', 'Atimabh Barunaha'];
+var img = ['naruto.webp', 'anush.png', 'smaranjit.png', 'naruto.webp', 'naruto.webp', 'naruto.webp', 'naruto.webp', 'naruto.webp'];
+var position = ['- Team Lead', '- Creatives Lead', '- Technical Lead', '- Content Lead', '- Community Lead', '- Partnership Lead', '- Partnership Lead', '- Web Team Lead']
 var len = mentor.length;
 
 var generateHere = document.getElementById("dynamicCards");
