@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="India's Biggest Student Held Virtual Hackathon">
-    <meta property="og:description" content="Hack Chennai is a community-focused virtual Hackathon, designed especially for the needs of the communities, with problem statements centered around the community itself. Whether you are a beginner or an expert, here is the perfect chance to hone and show your skills and witness the competitive yet inclusive developer community around you!">
+    <meta property="og:description" content="HackChennai is a 36- Hour, Community-focused Virtual Hackathon, designed especially for the needs of the communities, with problem statements centered around the community itself. Whether you are a beginner or an expert, here is the perfect chance to hone and show your skills and witness the competitive yet inclusive developer community around you!">
     <meta property="og:image" itemprop="image" content="https://nifty-borg-c353ac.netlify.app/images/og.png">
-    <meta property="og:url" content="https://nifty-borg-c353ac.netlify.app/">
+    <meta property="og:url" content="https://www.hackchennai.in/">
     <meta property="type" content="website">
-    <title>Hack Chennai</title>
+    <title>HackChennai</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/svg" href="images/hackathalon.svg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4e9a685ceb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- fontaweesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- material-icons -->
@@ -31,10 +33,10 @@
                 <h2>CHENNAI</h2>
             </div>
         </a>
-        <a href="#about">Organizers</a>
-        <a href="#news">Mentors</a>
-        <a href="#contact">Sponsors</a>
-        <a href="#about">About Us</a>
+        <a href="#about">About</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#mentors">Mentors</a>
+        <a href="#team">Team</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -42,21 +44,21 @@
 
     <div class="header">
         <div class="content">
-            <div class="dates">
-                <p>14th-15th AUGUST</p>
+            <div class="dates" data-aos="flip-up" data-aos-duration="1000">
+                <h2>22<sup>nd</sup>-23<sup>rd</sup> August</h2>
             </div>
-            <div class="landingHeading">
-                <h1>Are You Ready For Hack Chennai? 🎉</h1>
-                <p>Virtual Hackathon Loading<span id="wait"></span></p>
+            <div class="landingHeading" data-aos="flip-down" data-aos-duration="1000">
+                <h1>Are You Ready For HackChennai? 🎉</h1>
+                <p style="background-color: #fff !important;">Virtual Hackathon Loading<span id="wait"></span></p>
             </div>
             <div class="devfolio">
                 <a href="#">
-                    <button type="button" class="btn btn-dark devfolioBtn">Apply on Dev DevFolio</button>
+                    <button type="button" class="btn btn-dark devfolioBtn">Apply on Devfolio</button>
                     <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div>
-        <div class="display">
+        <div class="display" data-aos="flip-right" data-aos-duration="1000">
             <img src="./images/code.svg" alt="">
         </div>
 
@@ -65,61 +67,63 @@
     <div class="container-fluid">
 
         <!-- ! About Us  -->
-        <div class="row about">
+        <div class="row about" data-aos="fade-in" data-aos-duration="1000" id="about">
             <div class="col-12">
-                <h1 class="text-center font-weight-bold heading text-light">About Us</h1>
+                <h1 class="text-center font-weight-bold heading text-light">About HackChennai</h1>
             </div>
 
 
             <div class="row justify-content-center info text-light">
-                <div class="col-lg-12 question">
-                    <h2>What is Hack Chennai?🤔</h2>
+                <div class="col-lg-12 question" data-aos="fade-in" data-aos-duration="1000">
+                    <h2>What is HackChennai?🤔</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint minima architecto aliquid, voluptates blanditiis ullam eaque quod quasi at itaque consequatur ab, soluta quidem perferendis aspernatur quo fugiat similique.
+                        <span class="highlight">HackChennai</span>, a student-led virtual hackathon, brought to you by
+                        <span class="highlight">SRM HackerEarth</span>, the Official Campus Club of HackerEarth at SRM Institute of Science and Technology, Kattankulathur, is bound to drive your quarantine blues away! With <span class="highlight">innovative</span>                        tracks based on the need of the hour, HackChennai implores all the aspiring strategists to share their vision with the community. The best part? HackChennai offers a golden chance to all the students, regardless of their college
+                        and city! So <span class="highlight">if you have a laptop, an internet connection and a
+                            mind-blowing idea</span>- <span class="highlight-but-in-red">smash
+                            that registration button</span>!
+                        <br><br>
+                        <span class="highlight">Nobody's Perfect</span>
+                        <br><br> And neither is <span class="highlight">coding</span>. It can frustrate and intimidate. Yet, it is exhilarating and brings an
+                        <span class="highlight-but-in-red">unrivalled satisfaction</span>. The question is, what distinguishes a good coder from the best ones? It's the drive. The drive to be better than the rest, the drive to take a deep breath and continue
+                        even after the 14th compilation error. Show us that drive, show us the code, we'll take it; bugs and all. Join us at <span class="highlight">HackChennai</span> and rise up to the challenge.
                     </p>
                 </div>
-                <div class="col-lg-12 question">
-                    <h2>Why Hack Chennai?💬</h2>
+                <div class="col-lg-12 question" data-aos="fade-in" data-aos-duration="1000">
+                    <h2>Why HackChennai?💬</h2>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum aperiam, repellendus quas praesentium minus omnis dolores. Ex quis pariatur ipsa.
+                        We'll leave all the fancy-schmancy words behind, and give straight-up facts. We're talking <span class="highlight">innovation</span> and <span class="highlight-but-in-red">learning</span>, under one roof. A roof under which participants
+                        can meet like-minded people who share their inquisitiveness, and make lasting relationships with probable future business associates. They get to compete under the renowned <span class="highlight">HackerEarth</span> name and attract
+                        investors and organisations to kickstart their career. Our independent student club further allows the participants to freely express themselves and exhibit their work.
                     </p>
                 </div>
-                <div class="col-lg-12 question">
+                <div class="col-lg-12 question" data-aos="fade-in" data-aos-duration="1000">
                     <h2>How much does it cost?💲</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magnam ipsa soluta deleniti saepe reprehenderit nobis accusamus omnis nihil eaque.
+                        <span class="highlight">Let's talk bucks.</span><br><br> We understand "pocket-money". Which is why HackChennai is completely <span class="highlight-but-in-red">free of cost</span>! So keep your pointers close and your semicolons
+                        closer, because this hackathon will blow away every 'BIT' of boredom. And don't worry, <span class="highlight">our prizes are much better than our puns</span>.
                     </p>
                 </div>
-                <div class="col-lg-12 question">
-                    <h2>What are the tracks for Hack Chennai?💻</h2>
-                    <p>Themes
-                        <ul>
-                            <li>Sustainable Development</li>
-                            <li>Woman Safety</li>
-                            <li>Disaster Management</li>
-                            <li>Mining</li>
-                            <li>Healthcare</li>
-                        </ul>
-                    </p>
+                <div class="col-lg-12 question" data-aos="fade-in" data-aos-duration="1000">
+                    <h2>What are the tracks for HackChennai?💻</h2>
+                    <ul>
+                        <li><span class="highlight">Sustainable Development</span> - People, Planet, Prosperity.</li>
+                        <li><span class="highlight">Women Safety</span> - Equality, Opportunity, Empowerment.</li>
+                        <li><span class="highlight">Disaster Management</span> - Predict, Prevent, Protect.</li>
+                        <li><span class="highlight">Healthcare</span> - Treat, Medicate, Cure.</li>
+                        <li><span class="highlight">Open Innovation</span> - Innovate, Create, Lead.</li>
+                    </ul>
                 </div>
-                <div class="col-lg-12 question">
+                <div class="col-lg-12 question" data-aos="fade-in" data-aos-duration="1000">
                     <h2>Can students Attend?😎</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquid voluptas porro odit neque, quos numquam impedit? Molestiae, asperiores et.
+                        <span class="highlight-but-in-red">Yes.</span> Maestro or amateur, school or college, we'll save you a seat.
                     </p>
                 </div>
-                <div class="col-lg-12 question">
+                <div class="col-lg-12 question" data-aos="fade-in" data-aos-duration="1000">
                     <h2>Code of Conduct?📄</h2>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A facere odio iure perferendis iste itaque ipsam neque sunt rerum reprehenderit.
-                    </p>
-                </div>
-                <div class="col-lg-12 question">
-                    <h2>
-                        Why is HackChennai for you or why should you participate in it?🥳
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempore accusantium a temporibus porro natus sequi voluptate aut, magni deserunt.
+                        Feel free to check out our Code of Conduct right <span class="highlight"><a href="#">here</a></span>.
                     </p>
                 </div>
             </div>
@@ -128,48 +132,188 @@
         </div>
 
         <!-- Sponsors -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="sponsors">
             <div class="col-12">
-                <h1 class="text-center font-weight-bold heading">Sponsors</h1>
+                <h1 class="text-center font-weight-bold heading" data-aos="flip-up" data-aos-duration="1000">Sponsors</h1>
             </div>
-            <div class="col-lg-3 text-center sponsor">
-                <a href="#">
+            <div class="col-lg-3 text-center sponsor" data-aos="zoom-in" data-aos-duration="1000">
+                <a href="https://forms.gle/PBLDaNg95yUUemaS7" target="_blank">
                     <button type="button" class="btn btn-dark sponsorBtn">Become A Sponsor</button>
                 </a>
                 <div class="btnBorder"></div>
             </div>
-            <div class="col-lg-3 text-center sponsor">
-                <a href="#">
+            <!-- <div class="col-lg-3 text-center sponsor" data-aos="zoom-in" data-aos-duration="1000">
+                <a href="https://forms.gle/gqHpQ6YxsCUj9w6t6" target="_blank">
                     <button type="button" class="btn btn-dark sponsorBtn">Become A Speaker</button>
                 </a>
                 <div class="btnBorder"></div>
-            </div>
+            </div> -->
         </div>
 
-        <div class="row justify-content-center" style="margin-bottom: 2rem;">
+        <div class="row justify-content-center" style="margin-bottom: 2rem;" data-aos="fade-in" data-aos-duration="1000">
             <div class="col-lg-4">
                 <div class="partner">
-                    <h1>Hackathon Season Partner</h1>
-                    <img src="images/MLH.svg" alt="">
+                    <h1>Powered By</h1>
+                    <div class="powered">
+                        <a href="https://www.hackerearth.com/" target="_blank">
+                            <img src="images/he.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="titlePartner">
                     <div class="partner">
-                        <h1>Title Partner</h1>
+                        <h1>Title Partners</h1>
                         <div class="titlePartnerImg">
-                            <img src="images/github@3x.png" alt="">
-                            <img src="images/Devfolio@3x.png" alt="">
+                            <div>
+                                <a href="https://github.com/" target="_blank"><img src="images/github@3x.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="https://devfolio.co/" target="_blank"><img id="devfolio" src="images/devfolio.svg" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="row justify-content-center" style="margin-bottom: 2rem;" data-aos="fade-in" data-aos-duration="1000">
+            <div class="col-lg-12">
+                <div class="partner">
+                    <h1>Gold Partners</h1>
+                    <div class="goldPartner">
+                        <div id="matic">
+                            <a href="https://matic.network/" target="_blank"><img src="images/matic.png" alt=""></a>
+                        </div>
+                        <div id="producthunt">
+                            <a href="https://www.producthunt.com/" target="_blank"><img src="images/producthunt.png" alt=""></a>
+                        </div>
+                        <div id="linode">
+                            <a href="https://www.linode.com/" target="_blank"><img src="images/linode.svg" alt=""></a>
+                        </div>
+                        <div id="xyz">
+                            <a href="https://gen.xyz/" target="_blank"><img src="images/xyz.png" alt=""></a>
+                        </div>
+                        <div class="replit">
+                            <a href="https://repl.it/" target="_blank"><img src="images/replit.png" alt=""></a>
+                        </div>
+                        <div class="fold">
+                            <a href="https://fold.money/" target="_blank"><img src="images/fold.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="margin-bottom: 2rem;" data-aos="fade-in" data-aos-duration="1000">
+            <div class="col-lg-12">
+                <div class="partner">
+                    <h1>Silver Partners</h1>
+                    <div class="silverPartner">
+                        <div>
+                            <a href="https://www.zoomcar.com/" target="_blank"><img src="images/zoom.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://www.voiceflow.com/" target="_blank"><img src="images/voiceflow.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://givemycertificate.com/" target="_blank"><img src="images/certificate.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://www.sashido.io/en/" target="_blank"><img src="images/shashido.webp" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://www.echoar.xyz/" target="_blank"><img src="images/echoar.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://balsamiq.com/index.html" target="_blank"><img src="images/balsamiq.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="margin-bottom: 2rem;" data-aos="fade-in" data-aos-duration="1000">
+            <div class="col-lg-12">
+                <div class="partner">
+                    <h1>Bronze Partners</h1>
+                    <div class="bronzePartner">
+                        <div id="brains">
+                            <a href="https://www.jetbrains.com/" target="_blank"><img src="images/jetbrains.svg" alt=""></a>
+                        </div>
+                        <div id="egghead">
+                            <a href="https://egghead.io/" target="_blank"><img src="images/egghead.svg" alt=""></a>
+                        </div>
+                        <div id="cb">
+                            <a href="https://codingblocks.com/" target="_blank"><img id="cb" src="images/cblogo.png" alt=""></a>
+                        </div>
+                        <div id="interviewcake">
+                            <a href="https://www.interviewcake.com/" target="_blank"><img id="interviewcake" src="images/interviewcake.png" alt=""></a>
+                        </div>
+                        <div id="bugsee">
+                            <a href="https://www.bugsee.com/" target="_blank"><img src="images/bugsee.webp" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="margin-bottom: 2rem;" data-aos="fade-in" data-aos-duration="1000">
+            <div class="col-lg-4">
+                <div class="partner">
+                    <h1>Gifting Partner</h1>
+                    <div class="giftingPartner">
+                        <a target="_blank" href="https://www.thesouledstore.com/">
+                            <img src="images/tss.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="partner">
+                    <h1>Media Partners</h1>
+                    <div class="mediaPartner">
+                        <div>
+                            <a href="http://geny.co.in/" target="_blank"><img id="geny" src="images/geny.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="https://srmpedia.in/" target="_blank"><img id="srmpedia" src="images/srmpedia.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="margin-bottom: 2rem;" data-aos="fade-in" data-aos-duration="1000">
+            <div class="col-lg-4">
+                <div class="partner">
+                    <h1>Community Partner</h1>
+                    <div class="communityPartner">
+                        <a href="https://developer.amazon.com/en-US/alexa/alexa-voice-service" target="_blank"><img src="images/alexa.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Mentors -->
-        <div class="row justify-content-center" style="background-color: #000000;">
+        <div class="row justify-content-center" style="background-color: #000000;" id="mentors">
             <div class="col-md-12">
-                <h1 class="text-center font-weight-bold heading" style="color: #fff;">Mentors</h1>
+                <h1 class="text-center font-weight-bold heading" style="color: #fff;" data-aos="flip-up" data-aos-duration="1000">Mentors</h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="background-color: #000000;">
+            <div class="col-lg-2 text-center">
+                <a href="https://forms.gle/zZoUr79VowRWsqwe9" target="_blank">
+                    <button type="button" class="btn btn-dark sponsorBtn-white">Become A Mentor</button>
+                </a><br><br>
+            </div>
+            <div class="col-lg-2 text-center">
+                <a href="https://forms.gle/gqHpQ6YxsCUj9w6t6" target="_blank">
+                    <button type="button" class="btn btn-dark sponsorBtn-white">Become A Speaker</button>
+                </a><br><br>
             </div>
         </div>
         <div class="row justify-content-center" id="dynamicCards" style="background-color: #000000;">
@@ -216,12 +360,12 @@
 
 
         <!-- Team -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="team">
             <div class="col-md-12">
-                <h1 class="text-center font-weight-bold heading">Team</h1>
+                <h1 class="text-center font-weight-bold heading" data-aos="flip-up" data-aos-duration="1000">Team</h1>
             </div>
         </div>
-        <div class="row justify-content-center" id="teamCards">
+        <div class="row justify-content-center" id="teamCards" data-aos="fade-in" data-aos-duration="1000">
             <!-- <div class="col-lg-3 cardWrapper">
                 <div class="teamCard ">
                     <div class="teamImage ">
@@ -250,14 +394,14 @@
         <!-- Countdown -->
         <div class="row justify-content-center" style="background-color: #f7f7f7;">
             <div class="col-md-12">
-                <h1 class="text-center heading">Starting Soon!!</h1>
+                <h1 class="text-center heading" data-aos="flip-up" data-aos-duration="1000">Starting Soon!</h1>
             </div>
         </div>
         <div class="row justify-content-center" style="background-color: #f7f7f7;">
             <div class="col-lg-12 chennai">
-                <img src="images/chennai.svg" alt="">
+                <img src="images/chennai.svg" alt="" data-aos="flip-right" data-aos-duration="1000">
             </div>
-            <div class="col-lg-12 timer">
+            <div class="col-lg-12 timer" data-aos="fade-in" data-aos-duration="1000">
                 <div id="clockdiv">
                     <div>
                         <span class="days"></span>
@@ -282,28 +426,28 @@
         <div class="row" style="background-color: #000000;">
             <footer class="footer">
                 <div class="links">
-                    <a href="">
+                    <!-- <a href="mailto:support@hackchennai.in">
                         <img id="mail" src="images/mail.svg" alt="">
-                    </a>
-                    <a href="">
+                    </a> -->
+                    <a href="https://www.linkedin.com/company/srm-hackerearth/">
                         <img id="linked" src="images/linkedin.svg" alt="">
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/srmhackerearth">
                         <img id="insta" src="images/instagram.svg" alt="">
                     </a>
-                    <a href="">
-                        <img id="slack" src="images/slack.svg" alt="">
+                    <a href="https://www.facebook.com/srmhackerearth">
+                        <img id="facebook" src="images/facebook.svg" alt="">
                     </a>
-                    <a href="">
+                    <a href="https://www.twitter.com/SRMHackerEarth">
                         <img id="twitter" src="images/twitter.svg" alt="">
                     </a>
-                    <a href="">
+                    <a href="https://github.com/SRM-HackerEarth">
                         <img id="git" src="images/github.svg" alt="">
                     </a>
                 </div>
                 <div class="text">
                     <h1>
-                        Contact us: support@hackchennai.com
+                        Contact us: support@hackchennai.in
                     </h1>
                 </div>
             </footer>
@@ -313,6 +457,9 @@
     </div>
 
 
+    <script>
+        AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>

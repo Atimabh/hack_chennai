@@ -59,3 +59,47 @@
         font-size: 1.5em;
     }
 }
+
+p,
+ul {
+    background-color: #000000;
+    color: #c4c4c4;
+    font-size: large;
+    padding: 0.5em;
+    list-style: none;
+}
+
+.highlight {
+    /* color: #2c3454; */
+    color: #00FFDC;
+    /* font-weight: bolder; */
+    font-size: larger;
+}
+
+.highlight-but-in-red {
+    /* color: #FF001A; */
+    color: #c4c4c4;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+ul li::before {
+    content: "\2022";
+    /* color: #2c3454; */
+    color: #00E4D5;
+    /* font-weight: bold; */
+    display: inline-block;
+    width: 1em;
+    /* margin-left: 1em; */
+}
+
+a {
+    /* color: #2c3454; */
+    color: #00E4D5;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}

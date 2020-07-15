@@ -33,11 +33,16 @@ body {
 
 .partner {
   width: 90%;
+  min-height: 15rem;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 1rem;
   text-align: center;
   margin: 1rem auto;
+}
+
+.partner .powered {
+  margin: 3rem 0;
 }
 
 .partner h1 {
@@ -64,11 +69,177 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.titlePartnerImg img {
+.titlePartnerImg div {
+  width: 50%;
+  margin: 2rem 0;
+}
+
+.titlePartnerImg div img {
+  max-width: 70%;
+}
+
+.srmpedia {
+  margin-bottom: 3rem;
+}
+
+.srmpedia img {
+  width: 60% !important;
+}
+
+.giftingPartner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.giftingPartner img {
+  max-width: 40% !important;
+  margin: 1.2rem auto;
+}
+
+.communityPartner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.communityPartner img {
+  max-width: 80% !important;
+  margin: 3rem auto;
+}
+
+.goldPartner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.goldPartner div {
+  margin: 1rem 0;
   width: 30%;
-  margin: 3.5rem auto;
+}
+
+.goldPartner div img {
+  max-width: 80% !important;
+}
+
+.goldPartner #xyz {
+  width: 20% !important;
+}
+
+.silverPartner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.silverPartner div {
+  margin: 1.5rem 0;
+  width: 30%;
+}
+
+.silverPartner div img {
+  max-width: 80% !important;
+}
+
+.bronzePartner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bronzePartner div {
+  margin: 1rem 0;
+  width: 30%;
+}
+
+.bronzePartner div img {
+  max-width: 80% !important;
+}
+
+.bronzePartner #bugsee {
+  width: 15%;
+}
+
+.bronzePartner #bugsee img {
+  max-width: 60% !important;
+}
+
+.mediaPartner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mediaPartner div {
+  width: 50%;
+}
+
+.mediaPartner div img {
+  max-width: 80%;
+}
+
+.mediaPartner div #srmpedia {
+  max-width: 55%;
 }
 
 .CardWrapper {
@@ -249,7 +420,6 @@ body {
 }
 
 .teamCard .teamLinks a .teamLinkedin {
-  margin-right: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,6 +442,7 @@ body {
 }
 
 .teamCard .teamLinks a .teamGithub {
+  margin-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,23 +537,23 @@ body {
 }
 
 .footer .links a #linked {
-  -webkit-filter: invert(44%) sepia(65%) saturate(5025%) hue-rotate(196deg) brightness(103%) contrast(99%);
-          filter: invert(44%) sepia(65%) saturate(5025%) hue-rotate(196deg) brightness(103%) contrast(99%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
 }
 
 .footer .links a #insta {
-  -webkit-filter: invert(23%) sepia(100%) saturate(1902%) hue-rotate(288deg) brightness(113%) contrast(126%);
-          filter: invert(23%) sepia(100%) saturate(1902%) hue-rotate(288deg) brightness(113%) contrast(126%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
 }
 
-.footer .links a #slack {
-  -webkit-filter: invert(49%) sepia(100%) saturate(776%) hue-rotate(85deg) brightness(109%) contrast(115%);
-          filter: invert(49%) sepia(100%) saturate(776%) hue-rotate(85deg) brightness(109%) contrast(115%);
+.footer .links a #facebook {
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
 }
 
 .footer .links a #twitter {
-  -webkit-filter: invert(61%) sepia(94%) saturate(1684%) hue-rotate(135deg) brightness(104%) contrast(100%);
-          filter: invert(61%) sepia(94%) saturate(1684%) hue-rotate(135deg) brightness(104%) contrast(100%);
+  -webkit-filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
+          filter: invert(100%) sepia(88%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
 }
 
 .footer .links a #git {
@@ -396,6 +567,103 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 990px) {
+  .giftingPartner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .giftingPartner img {
+    max-width: 60% !important;
+    margin: 0rem auto;
+  }
+  .communityPartner img {
+    max-width: 80% !important;
+    margin: 3.5rem auto;
+  }
+  .goldPartner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .goldPartner div {
+    width: 80%;
+  }
+  .goldPartner div img {
+    max-width: 100%;
+  }
+  .goldPartner #xyz {
+    width: 60% !important;
+  }
+  .silverPartner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .silverPartner div {
+    width: 80%;
+    margin: auto 0;
+  }
+  .silverPartner div img {
+    max-width: 100% !important;
+  }
+  .bronzePartner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bronzePartner div {
+    width: 80%;
+  }
+  .bronzePartner #bugsee {
+    width: 80%;
+  }
+  .bronzePartner #bugsee img {
+    max-width: 100%;
+  }
+  .mediaPartner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mediaPartner div {
+    width: 80%;
+  }
+  .mediaPartner div img {
+    max-width: 100%;
+  }
+  .partner .powered {
+    width: 100%;
+  }
+  .partner .powered img {
+    max-width: 80% !important;
+  }
+  .titlePartnerImg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .titlePartnerImg div {
+    width: 80%;
+    margin: 0.5rem 0;
+  }
+  .titlePartnerImg div img {
+    max-width: 100%;
   }
 }
 
